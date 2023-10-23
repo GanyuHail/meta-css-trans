@@ -31,7 +31,7 @@ p .letters {
 	border-style: solid;
 }
 
-p .letter > :hover :nth-child(even) {
+.letter > p:hover:nth-child(even) {
 	transform: rotateY(360deg);
 	transition: 0.5s;
 }
